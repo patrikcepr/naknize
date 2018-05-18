@@ -2,3 +2,8 @@
 /assets/includes/classes/DB_out.php
 /assets/includes/database_out.php
 /assets/includes/database.php
+/foto_full
+/dataman
+*.html
+*.old
+*.oldold
