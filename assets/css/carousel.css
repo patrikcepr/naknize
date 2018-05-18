@@ -1,7 +1,7 @@
 .carousel-inner > .item > img, .carousel-inner > .item > a > img {
     display: block;
     position: relative;
-    left: -20%;
+    left: -22%;
     min-height: 100vh;
     min-width: 868px;
     line-height: 1;
@@ -9,10 +9,10 @@
 .carousel-inner>.item {
 -webkit-transition: 1.9s ease-in-out left;
 transition: 1.9s ease-in-out left;
+transition: 1.9s, ease-in-out, left;
 -webkit-transition: 1.9s, ease-in-out, left;
 -moz-transition: 1.9s, ease-in-out, left;
 -o-transition: 1.9s, ease-in-out, left;
-transition: 1.9s, ease-in-out, left;
 }
 
 @media (min-width: 768px) {
