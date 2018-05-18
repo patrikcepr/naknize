@@ -1,0 +1,30 @@
+RESTAURANT
+
+FOODTYPE
+-id (INT(11), auto_increment, primary_key)
+-name (VARCHAR(255))
+-nameEng (VARCHAR(255))
+
+FOOD
+-id (INT(11), auto_increment, primary_key)
+-name (VARCHAR(255))
+-nameEng (VARCHAR(255))
+-price (INT(5))
+-weight (INT(5))
+-alergens (VARCHAR(255))
+-foodType (INT(11), foreign_key to foodtype id )
+-image (VARCHAR(100))
+
+DRINKTYPE
+-id (INT(11), auto_increment, primary_key)
+-name (VARCHAR(255))
+-nameEng (VARCHAR(255))
+
+DRINK
+-id (INT(11), auto_increment, primary_key)
+-name (VARCHAR(255))
+-nameEng (VARCHAR(255))
+-price (INT(5))
+-content (VARCHAR(8))
+-drinkType (INT(11), foreign_key to drinktype id)
+-image (VARCHAR(100))
