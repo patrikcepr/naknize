@@ -144,6 +144,7 @@ display: block;
   /* margin: auto; */
   min-height: 100vh;
   padding: 2em;
+  padding-bottom: 4em;
   position: relative;
   display: inline-block;
 }
@@ -169,6 +170,7 @@ display: block;
   min-height: 100vh;
   background: black;
   padding: 2em;
+  padding-bottom: 4em;
 }
 #historie h1 {
   margin-top: 50px;
@@ -176,6 +178,7 @@ display: block;
 }
 #historie p {
   text-align: justify;
+  padding-bottom: 1em;
 }
 
 #kontakt {
