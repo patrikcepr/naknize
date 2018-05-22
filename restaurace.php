@@ -55,12 +55,15 @@ require_once "assets/includes/header.php";
       </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
   </nav>
-  <div class="container">
-    <div class="row" id="jidelni">
-      <p class="justify">
-        <a href="restaurace.php#galerierest">Restaurace</a> má celkovou kapacitu 130 míst, z čehož je 60 míst uvnitř a zbylých 70 míst nabízí stylová venkovní terasa ve vnitrobloku.
-        Denně nabízíme výběr z poledního menu s hotovými jídly a saláty. Po obědech pak speciality z našeho stálého jídelního lístku.
-      </p>
+  <div class="container" id="jidelni">
+    <div class="row">
+      <div class="col-lg-12">
+        <h2>Restaurace</h2>
+        <p>
+          <a href="restaurace.php#galerierest">Restaurace</a> má celkovou kapacitu 130 míst, z čehož je 60 míst uvnitř a zbylých 70 míst nabízí stylová venkovní terasa ve vnitrobloku.
+          Denně nabízíme výběr z poledního menu s hotovými jídly a saláty. Po obědech pak speciality z našeho stálého jídelního lístku.
+        </p>
+      </div>
     </div>
   </div>
   <!-- jidelni listek tabs-->
@@ -121,74 +124,77 @@ require_once "assets/includes/header.php";
   </div>
 
   <!-- galerie -->
-  <div class="container" id="galerierest">
-    <div class="row">
-      <h2>Fotogalerie</h2>
-    </div>
-    <div class="row">
-      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
-        <a href="assets/images/restaurace/IMG_20170718_104448.jpg" data-toggle="lightbox" data-gallery="Restaurace" data-title="Restaurace Na Knížecí">
-          <img src="assets/images/restaurace/IMG_20170718_104448.jpg" alt="Restaurace" class="img-fluid">
-        </a>
+  <div class="container-fluid" id="galerierest">
+    <div class="container">
+
+      <div class="row">
+        <h2>Fotogalerie</h2>
       </div>
-      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
-        <a href="assets/images/restaurace/IMG_20170718_104507.jpg" data-toggle="lightbox" data-gallery="Restaurace" data-title="Restaurace Na Knížecí">
-          <img src="assets/images/restaurace/IMG_20170718_104507.jpg" alt="Restaurace" class="img-fluid">
-        </a>
+      <div class="row">
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+          <a href="assets/images/restaurace/IMG_20170718_104448.jpg" data-toggle="lightbox" data-gallery="Restaurace" data-title="Restaurace Na Knížecí">
+            <img src="assets/images/restaurace/IMG_20170718_104448.jpg" alt="Restaurace" class="img-fluid">
+          </a>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+          <a href="assets/images/restaurace/IMG_20170718_104507.jpg" data-toggle="lightbox" data-gallery="Restaurace" data-title="Restaurace Na Knížecí">
+            <img src="assets/images/restaurace/IMG_20170718_104507.jpg" alt="Restaurace" class="img-fluid">
+          </a>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+          <a href="assets/images/restaurace/IMG_20170718_104541.jpg" data-toggle="lightbox" data-gallery="Restaurace" data-title="Restaurace Na Knížecí">
+            <img src="assets/images/restaurace/IMG_20170718_104541.jpg" alt="Restaurace" class="img-fluid">
+          </a>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+          <a href="assets/images/restaurace/IMG_20170718_104716.jpg" data-toggle="lightbox" data-gallery="Restaurace" data-title="Restaurace Na Knížecí">
+            <img src="assets/images/restaurace/IMG_20170718_104716.jpg" alt="Restaurace" class="img-fluid">
+          </a>
+        </div>
       </div>
-      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
-        <a href="assets/images/restaurace/IMG_20170718_104541.jpg" data-toggle="lightbox" data-gallery="Restaurace" data-title="Restaurace Na Knížecí">
-          <img src="assets/images/restaurace/IMG_20170718_104541.jpg" alt="Restaurace" class="img-fluid">
-        </a>
+      <div class="row">
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+          <a href="assets/images/restaurace/IMG_20170718_104941.jpg" data-toggle="lightbox" data-gallery="Restaurace" data-title="Restaurace Na Knížecí">
+            <img src="assets/images/restaurace/IMG_20170718_104941.jpg" alt="Restaurace" class="img-fluid">
+          </a>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+          <a href="assets/images/restaurace/IMG_20170718_105148.jpg" data-toggle="lightbox" data-gallery="Restaurace" data-title="Restaurace Na Knížecí">
+            <img src="assets/images/restaurace/IMG_20170718_105148.jpg" alt="Restaurace" class="img-fluid">
+          </a>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+          <a href="assets/images/restaurace/IMG_20170718_105328.jpg" data-toggle="lightbox" data-gallery="Restaurace" data-title="Restaurace Na Knížecí">
+            <img src="assets/images/restaurace/IMG_20170718_105328.jpg" alt="Restaurace" class="img-fluid">
+          </a>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+          <a href="assets/images/restaurace/IMG_20170718_105357.jpg" data-toggle="lightbox" data-gallery="Restaurace" data-title="Restaurace Na Knížecí">
+            <img src="assets/images/restaurace/IMG_20170718_105357.jpg" alt="Restaurace" class="img-fluid">
+          </a>
+        </div>
       </div>
-      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
-        <a href="assets/images/restaurace/IMG_20170718_104716.jpg" data-toggle="lightbox" data-gallery="Restaurace" data-title="Restaurace Na Knížecí">
-          <img src="assets/images/restaurace/IMG_20170718_104716.jpg" alt="Restaurace" class="img-fluid">
-        </a>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
-        <a href="assets/images/restaurace/IMG_20170718_104941.jpg" data-toggle="lightbox" data-gallery="Restaurace" data-title="Restaurace Na Knížecí">
-          <img src="assets/images/restaurace/IMG_20170718_104941.jpg" alt="Restaurace" class="img-fluid">
-        </a>
-      </div>
-      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
-        <a href="assets/images/restaurace/IMG_20170718_105148.jpg" data-toggle="lightbox" data-gallery="Restaurace" data-title="Restaurace Na Knížecí">
-          <img src="assets/images/restaurace/IMG_20170718_105148.jpg" alt="Restaurace" class="img-fluid">
-        </a>
-      </div>
-      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
-        <a href="assets/images/restaurace/IMG_20170718_105328.jpg" data-toggle="lightbox" data-gallery="Restaurace" data-title="Restaurace Na Knížecí">
-          <img src="assets/images/restaurace/IMG_20170718_105328.jpg" alt="Restaurace" class="img-fluid">
-        </a>
-      </div>
-      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
-        <a href="assets/images/restaurace/IMG_20170718_105357.jpg" data-toggle="lightbox" data-gallery="Restaurace" data-title="Restaurace Na Knížecí">
-          <img src="assets/images/restaurace/IMG_20170718_105357.jpg" alt="Restaurace" class="img-fluid">
-        </a>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
-        <a href="assets/images/restaurace/IMG_20170718_105409.jpg" data-toggle="lightbox" data-gallery="Restaurace" data-title="Restaurace Na Knížecí">
-          <img src="assets/images/restaurace/IMG_20170718_105409.jpg" alt="Restaurace" class="img-fluid">
-        </a>
-      </div>
-      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
-        <a href="assets/images/restaurace/IMG_20170718_105441.jpg" data-toggle="lightbox" data-gallery="Restaurace" data-title="Restaurace Na Knížecí">
-          <img src="assets/images/restaurace/IMG_20170718_105441.jpg" alt="Restaurace" class="img-fluid">
-        </a>
-      </div>
-      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
-        <a href="assets/images/restaurace/IMG_20170718_105533.jpg" data-toggle="lightbox" data-gallery="Restaurace" data-title="Restaurace Na Knížecí">
-          <img src="assets/images/restaurace/IMG_20170718_105533.jpg" alt="Restaurace" class="img-fluid">
-        </a>
-      </div>
-      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
-        <a href="assets/images/restaurace/IMG_20170718_105833.jpg" data-toggle="lightbox" data-gallery="Restaurace" data-title="Restaurace Na Knížecí">
-          <img src="assets/images/restaurace/IMG_20170718_105833.jpg" alt="Restaurace" class="img-fluid">
-        </a>
+      <div class="row">
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+          <a href="assets/images/restaurace/IMG_20170718_105409.jpg" data-toggle="lightbox" data-gallery="Restaurace" data-title="Restaurace Na Knížecí">
+            <img src="assets/images/restaurace/IMG_20170718_105409.jpg" alt="Restaurace" class="img-fluid">
+          </a>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+          <a href="assets/images/restaurace/IMG_20170718_105441.jpg" data-toggle="lightbox" data-gallery="Restaurace" data-title="Restaurace Na Knížecí">
+            <img src="assets/images/restaurace/IMG_20170718_105441.jpg" alt="Restaurace" class="img-fluid">
+          </a>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+          <a href="assets/images/restaurace/IMG_20170718_105533.jpg" data-toggle="lightbox" data-gallery="Restaurace" data-title="Restaurace Na Knížecí">
+            <img src="assets/images/restaurace/IMG_20170718_105533.jpg" alt="Restaurace" class="img-fluid">
+          </a>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+          <a href="assets/images/restaurace/IMG_20170718_105833.jpg" data-toggle="lightbox" data-gallery="Restaurace" data-title="Restaurace Na Knížecí">
+            <img src="assets/images/restaurace/IMG_20170718_105833.jpg" alt="Restaurace" class="img-fluid">
+          </a>
+        </div>
       </div>
     </div>
   </div>

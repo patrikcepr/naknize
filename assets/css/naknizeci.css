@@ -49,8 +49,8 @@ h3 {
   font-size: 1.3em;
 }*/
 .tab-content {
-  padding-top: 20px;
-  padding-bottom: 100px;
+  padding-top: 1em;
+  padding-bottom: 5em;
 }
 .table tr td:last-of-type {
   text-align: right;
@@ -89,6 +89,12 @@ h3 {
 .navbar-default a.navbar-brand {
   color: #FFA000;
   font-weight: 900;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: #fff;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background: #ddd;
 }
 /* navtabs jidlo a napoje */
 .nav-tabs > li > a {
@@ -212,11 +218,9 @@ div.ekko-lightbox-nav-overlay a span {
   text-align: left;
 }
 #galerierest {
-  padding-top: 2em;
-  padding-left: 1em;
-  padding-right: 1em;
-  padding-bottom: 4em;
-  background-color: #FFA000;
+  background: #000;
+  padding-top: 4em;
+  padding-bottom: 5em;
 }
 #galerierest a {
   display: inline-block;
@@ -229,7 +233,6 @@ div.ekko-lightbox-nav-overlay a span {
 }
 #galerierest img {
   width: 100%;
-  /*margin: 8px;*/
 }
 #galerierest h2 {
   padding-left: 12px;
@@ -247,6 +250,9 @@ div.ekko-lightbox-nav-overlay a span {
 /*restaurace*/
 #jidelni {
   padding-top: 4em;
+}
+#jidelni p {
+  text-align: justify;
 }
 #napojovy {
   padding-top: 2em;
@@ -275,6 +281,14 @@ div.ekko-lightbox-nav-overlay a span {
 
 
 /*media queries*/
+@media (max-width: 768px) {
+
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: white;
+  }
+
+}
+
 @media (min-width: 768px) {
   h1 {
     font-size: 2em;
@@ -289,24 +303,9 @@ div.ekko-lightbox-nav-overlay a span {
   .table thead {
     font-size: 1.6em;
   }
-  /* #penzion, #historie {
-    height: 100vh;
-  }
-  #galerierest {
-    padding-top: 80px;
-    padding-bottom: 80px;
-    padding-left: 160px;
-    padding-right: 160px;
-  } */
-}
+
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-  /* #galerierest {
-    padding-top: 80px;
-    padding-bottom: 80px;
-    padding-left: 180px;
-    padding-right: 180px;
-  } */
   /* #historie{
     padding-top: 15%;
   } */
