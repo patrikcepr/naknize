@@ -174,7 +174,7 @@ display: block;
 #historie {
   margin: auto;
   min-height: 100vh;
-  background: black;
+  background: #c47401;
   padding: 2em;
   padding-bottom: 4em;
 }
@@ -218,7 +218,7 @@ div.ekko-lightbox-nav-overlay a span {
   text-align: left;
 }
 #galerierest {
-  background: #000;
+  background: #c47401;
   padding-top: 4em;
   padding-bottom: 5em;
 }
@@ -233,6 +233,7 @@ div.ekko-lightbox-nav-overlay a span {
 }
 #galerierest img {
   width: 100%;
+  box-shadow: 2px 2px 2px 3px rgba(0, 0, 0, 0.5);
 }
 #galerierest h2 {
   padding-left: 12px;
