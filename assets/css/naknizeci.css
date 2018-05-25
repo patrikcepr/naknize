@@ -32,8 +32,7 @@ h1 {
 p {
   line-height: 1.8em;
   font-weight: 400;
-  /*padding-left: 25px;*/
-  /*padding-right: 25px;*/
+  text-align: justify;
 }
 h2 {
   text-align: left;
@@ -49,11 +48,12 @@ h3 {
   font-size: 1.3em;
 }*/
 .tab-content {
-  padding-top: 1em;
+  padding-top: 2em;
   padding-bottom: 5em;
 }
 .table tr td:last-of-type {
   text-align: right;
+  padding-left: 0;
 }
 .table tr td:first-of-type {
   width: 85%;
@@ -67,14 +67,21 @@ h3 {
 .table-striped tr:nth-of-type(even) {
   background-color: rgba(58, 71, 80, 0.4);
 }
-.table-striped > tbody > tr:nth-child(odd) > td, .table-striped > tbody > tr:nth-child(odd) > th {
+.table-striped > tbody > tr:nth-child(odd) > td,
+.table-striped > tbody > tr:nth-child(odd) > th {
     /*stripe tabulka zmena barvy*/
    /*background-color: rgba(25, 25, 25, 0.3);*/
 }
 .table tr:nth-child(2n) {
   color: #eeeeee;
 }
-
+tbody tr td {
+  min-width: 70px;
+}
+tbody tr td:nth-of-type(2n) {
+  padding-right: 0;
+  text-align: right;
+}
 /* navbar */
 .navbar-default .navbar-nav > li > a:hover {
   /*color: rgb(35, 82, 124);*/
@@ -155,7 +162,8 @@ display: block;
   display: inline-block;
 }
 .onas__blok-text {
-  padding: 1em;
+  padding-top: 1em;
+  padding-bottom: 1em;
   text-align: justify;
 }
 #onas a, #penzion a {
@@ -183,7 +191,6 @@ display: block;
   margin-bottom: 1em;
 }
 #historie p {
-  text-align: justify;
   padding-bottom: 1em;
 }
 
@@ -197,6 +204,7 @@ display: block;
   top: 50%;
   transform: perspective(1px) translateY(-50%);
   display: block;
+  text-align: center;
 }
 
 /*datepicker*/
@@ -219,9 +227,10 @@ div.ekko-lightbox-nav-overlay a span {
 }
 #galerierest {
   background: #c47401;
-  padding-top: 4em;
+  padding-top: 2em;
   padding-bottom: 5em;
 }
+
 #galerierest a {
   display: inline-block;
   margin-bottom: 30px;
@@ -236,12 +245,13 @@ div.ekko-lightbox-nav-overlay a span {
   box-shadow: 2px 2px 2px 3px rgba(0, 0, 0, 0.5);
 }
 #galerierest h2 {
-  padding-left: 12px;
+  padding-left: 15px;
+  padding-top: 2em;
 }
 #form-container {
   background-color: rgba(255, 255, 255, 0.2);
   /*margin-top: 200px;*/
-  padding: 10px;
+  padding: 15px;
   margin: auto;
   margin-top: 70px;
   margin-bottom: 60px;
@@ -250,12 +260,16 @@ div.ekko-lightbox-nav-overlay a span {
 
 /*restaurace*/
 #jidelni {
+  padding: 15px;
   padding-top: 4em;
 }
+
 #jidelni p {
   text-align: justify;
 }
+
 #napojovy {
+  padding: 15px;
   padding-top: 2em;
 }
 
@@ -271,7 +285,9 @@ div.ekko-lightbox-nav-overlay a span {
   /* border: 15px solid rgba(255, 255, 255, 0.5); */
   /*height: 220px;*/
 }
-
+#pokoje h3 {
+  margin-top: 2em;
+}
 .pokoj a {
   display: inline-block;
   margin-bottom: 30px;
@@ -280,14 +296,41 @@ div.ekko-lightbox-nav-overlay a span {
   margin-right: 8px;
 }
 
-
 /*media queries*/
 @media (max-width: 768px) {
 
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
     color: white;
   }
-
+  #galerierest.container-fluid {
+    padding: 15px;
+  }
+  #pokoje.container-fluid {
+    padding: 15px;
+  }
+  #tabJidlo {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  #tabNapoje {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .tab-content {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .tab-pokoje {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  #jidelni h2, #napojovy h2, #jidlo h2 {
+    padding-left: 15px;
+  }
+  #jidelni p {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 }
 
 @media (min-width: 768px) {

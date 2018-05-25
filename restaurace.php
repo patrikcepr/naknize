@@ -57,7 +57,7 @@ require_once "assets/includes/header.php";
   </nav>
   <div class="container" id="jidelni">
     <div class="row">
-      <div class="col-lg-12">
+      <div class="col-xs-12">
         <h2>Restaurace</h2>
         <p>
           <a href="restaurace.php#galerierest">Restaurace</a> má celkovou kapacitu 130 míst, z čehož je 60 míst uvnitř a zbylých 70 míst nabízí stylová venkovní terasa ve vnitrobloku.
@@ -67,9 +67,9 @@ require_once "assets/includes/header.php";
     </div>
   </div>
   <!-- jidelni listek tabs-->
-  <div class="container">
-    <div class="row marketing">
-      <div class="col-lg-12">
+  <div class="container" id="jidlo">
+    <div class="row">
+      <div class="col-xs-12">
         <h2>Jídelní lístek</h2>
           <ul id="tabJidlo" class="nav nav-tabs nav-justified" role="tablist">
             <?php
@@ -126,7 +126,6 @@ require_once "assets/includes/header.php";
   <!-- galerie -->
   <div class="container-fluid" id="galerierest">
     <div class="container">
-
       <div class="row">
         <h2>Fotogalerie</h2>
       </div>
@@ -199,10 +198,10 @@ require_once "assets/includes/header.php";
     </div>
   </div>
   <!-- napojovy listek tabs -->
-  <div class="container">
-    <div class="row marketing">
-      <div class="col-lg-12">
-        <h2 id="napojovy">Nápojový lístek</h2>
+  <div class="container" id="napojovy">
+    <div class="row">
+      <div class="col-xs-12">
+        <h2>Nápojový lístek</h2>
           <ul id="tabNapoje" class="nav nav-tabs nav-justified" role="tablist">
             <?php
             #prepare tabs

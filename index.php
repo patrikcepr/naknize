@@ -84,7 +84,7 @@ require_once "assets/includes/header.php";
       </div>
     </div>
     <div class="row">
-      <div class="onas__blok col-xs-12 col-sm-4">
+      <div class="onas__blok col-xs-12 col-sm-3 col-sm-offset-1">
         <span class="fas fa-home fa-10x"></span>
         <p class="onas__blok-text">
           Penzion s restaurací se nachází v centru malebné obce Čimelice na hlavním tahu Praha-Písek, Strakonice a to přímo na komunikaci R4,
@@ -99,7 +99,7 @@ require_once "assets/includes/header.php";
           Denně nabízíme výběr z poledního menu s hotovými jídly a saláty. Po obědech pak speciality z našeho stálého jídelního lístku.
         </p>
       </div>
-      <div class="onas__blok col-xs-12 col-sm-4">
+      <div class="onas__blok col-xs-12 col-sm-3">
         <span class="fas fa-bed fa-10x"></span>
         <p class="onas__blok-text">
           Celková kapacita penzionu je 21 lůžek rozdělených do 6 pokojů s vlastním sociálním zařízením, samozřejmostí je wifi připojení.<br>
@@ -130,7 +130,7 @@ require_once "assets/includes/header.php";
       <p class="kontakt-text">
         <span class="glyphicon glyphicon-phone-alt">  </span> +420 601 338 500 <br>
         <span class="glyphicon glyphicon-envelope">  </span><a href="mailto:info@naknizeci.cz?subject=Zprava%20z%20webu"> info@naknizeci.cz</a><br>
-        <span class="fab fa-facebook-square">  </span><a href="https://www.facebook.com/cimelicenaknizeci/" target="_blank"> Facebook Restaurace a penzionu Na Knížecí</a><br>
+        <span class="fab fa-facebook-square">  </span><a href="https://www.facebook.com/cimelicenaknizeci/" target="_blank"> Restaurace a penzion Na Knížecí</a><br>
         <span class="glyphicon glyphicon-map-marker">  </span><a href="https://www.google.cz/maps/place/Penzion+Na+Kn%C3%AD%C5%BEec%C3%AD/@49.4654889,14.0674215,17.84z/data=!4m5!3m4!1s0x470b40484cb0e36d:0x42fe8ad64ddba2db!8m2!3d49.4654705!4d14.069267"
         target="_blank">Čimelice 20, 398 04 Čimelice</a><br>
         &copy; <?php echo date('Y'); ?> Restaurace a penzion Na&nbsp;Knížecí

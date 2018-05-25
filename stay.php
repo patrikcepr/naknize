@@ -26,7 +26,7 @@
               <li><a href="restaurace.php#napojovy">Nápojový lístek</a></li>
             </ul>
           </li>
-          <li><a href="index.php#penzion">Penzion</a></li>
+          <!-- <li><a href="index.php#penzion">Penzion</a></li> -->
           <li><a href="stay.php">Ubytování <span class="sr-only">(current)</span></a></li>
           <li><a href="index.php#historie">Historie</a></li>
         </ul>
@@ -39,24 +39,26 @@
   <div class="container-fluid" id="pokoje">
     <div class="container">
       <div class="row">
-        <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2">
+        <div class="col-xs-12 col-md-10 col-md-offset-1">
           <h1>Penzion</h1>
           <p>Penzion nabízí celkem 21 lůžek ve 2&nbsp;dvoulůžkových, 2&nbsp;třílůžkových, jednom pěti a jednom šestilůžkovém pokoji.
           Ceník ubytování: 350,-&nbsp;Kč/noc na osobu, při obsazení pokoje 1 osobou cena 500,-&nbsp;Kč/noc. V případě dlouhodobého pobytu možná sleva.</p>
         </div>
       </div>
       <div class="row">
-        <h3>Prohlédněte si naše pokoje...</h3>
-        <ul id="tabPokoje" class="nav nav-tabs nav-justified" role="tablist">
-          <li role="presentation" class="disabled"><a href="#">Pokoj č.1</a></li>
-          <li role="presentation" class="active"><a href="#pokoj2" aria-controls="pokoj2" role="tab" data-toggle="tab">Pokoj č.2</a></li>
-          <li role="presentation"><a href="#pokoj3" aria-controls="pokoj3" role="tab" data-toggle="tab">Pokoj č.3</a></li>
-          <li role="presentation"><a href="#pokoj4" aria-controls="pokoj4" role="tab" data-toggle="tab">Pokoj č.4</a></li>
-          <li role="presentation"><a href="#pokoj5" aria-controls="pokoj5" role="tab" data-toggle="tab">Pokoj č.5</a></li>
-          <li role="presentation"><a href="#pokoj6" aria-controls="pokoj6" role="tab" data-toggle="tab">Pokoj č.6</a></li>
-        </ul>
+        <div class="col-xs-12">
+          <h3>Prohlédněte si naše pokoje...</h3>
+          <ul id="tabPokoje" class="nav nav-tabs nav-justified" role="tablist">
+            <li role="presentation" class="disabled"><a href="#">Pokoj č.1</a></li>
+            <li role="presentation" class="active"><a href="#pokoj2" aria-controls="pokoj2" role="tab" data-toggle="tab">Pokoj č.2</a></li>
+            <li role="presentation"><a href="#pokoj3" aria-controls="pokoj3" role="tab" data-toggle="tab">Pokoj č.3</a></li>
+            <li role="presentation"><a href="#pokoj4" aria-controls="pokoj4" role="tab" data-toggle="tab">Pokoj č.4</a></li>
+            <li role="presentation"><a href="#pokoj5" aria-controls="pokoj5" role="tab" data-toggle="tab">Pokoj č.5</a></li>
+            <li role="presentation"><a href="#pokoj6" aria-controls="pokoj6" role="tab" data-toggle="tab">Pokoj č.6</a></li>
+          </ul>
+        </div>
       </div>
-      <div class="tab-content">
+      <div class="tab-content tab-pokoje">
         <div role="tabpanel" class="tab-pane fade in active pokoj" id="pokoj2">
           <div class="row">
             <div class="col-xs-12 col-sm-2">
@@ -276,7 +278,7 @@
           <div class="col-sm-3">
             <input id="from" class="form-control" type="text" name="from" placeholder="Datum příjezdu" required>
           </div>
-          <label for="to" class="col-sm-1 col-form-label">a odjezdu:</label>
+          <label for="to" class="col-sm-2 col-form-label">a odjezdu:</label>
           <div class="col-sm-3">
             <input id="to" class="form-control" type="text" name="to" placeholder="Datum odjezdu" required>
           </div>
@@ -286,13 +288,13 @@
           <div class="col-sm-3">
             <input id="adults" class="form-control"type="number" name="adults" size="3" min="0" max="30" required value="1">
           </div>
-          <label for="kids" class="col-sm-1 col-form-label">a děti:</label>
+          <label for="kids" class="col-sm-2 col-form-label">a děti:</label>
           <div class="col-sm-3">
             <input id="kids" class="form-control"type="number" name="kids" size="3" main="0" max="30" required placeholder="všechny vítány"><br>
           </div>
         </div>
         <div class="form-group row">
-          <label for="message" class="col-sm-4 col-form-label">V případě potřeby upřesněte poptávku:</label><br>
+          <label for="message" class="col-sm-6 col-form-label">V případě potřeby upřesněte poptávku:</label><br>
           <div class="col-sm-12">
             <textarea id="message" class="form-control" type="textarea" name="message" value="" rows="4" maxlength="2000"></textarea><br>
           </div>
