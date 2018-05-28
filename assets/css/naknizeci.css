@@ -109,7 +109,7 @@ tbody tr td:nth-of-type(2n) {
 }
 .navbar-brand img {
   height: 100px;
-  padding-left: 15px;
+  /* padding-left: 15px; */
 }
 #navbar-collapse-1 {
   padding-top: 40px;
@@ -329,6 +329,9 @@ div.ekko-lightbox-nav-overlay a span {
   }
   .navbar-fixed-top .navbar-collapse {
     max-height: 400px;
+  }
+  .navbar-brand img {
+    padding-left: 15px;
   }
   .leftright {
     padding-left: 15px;
