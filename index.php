@@ -109,7 +109,7 @@ require_once "assets/includes/header.php";
   </div>
   <div class="container-fluid" id="historie">
     <div class="row">
-      <div class="col-xs-12 col-md-offset-2 col-md-8">
+      <div class="col-xs-12 col-sm-offset-1 col-sm-10">
         <h1>Historie</h1>
         <p>
           Již v roce 1775 na tomto místě stálo pohostinství, ovšem z této doby se nedochoval žádný doklad o tom, jak bylo velké a jak vypadalo.

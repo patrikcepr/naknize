@@ -28,7 +28,9 @@ require_once "assets/includes/header.php";
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="index.php">Na Knížecí</a>
+        <a class="navbar-brand" href="index.php">
+          <img src="assets/images/LOGO_naknizeci9w.png" alt="Na Knižecí">
+        </a>
       </div>
 
       <!-- Collect the nav links, forms, and other content for toggling -->
@@ -124,7 +126,7 @@ require_once "assets/includes/header.php";
   </div>
 
   <!-- galerie -->
-  <div class="container-fluid" id="galerierest">
+  <div class="container-fluid leftright" id="galerierest">
     <div class="container">
       <div class="row">
         <h2>Fotogalerie</h2>

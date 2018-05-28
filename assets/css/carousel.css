@@ -2,8 +2,8 @@
     display: block;
     position: relative;
     left: -25%;
-    min-height: 100vh;
-    min-width: 868px;
+    min-height: 80vh;
+    min-width: 968px;
     line-height: 1;
 }
 .carousel-inner>.item {
@@ -16,12 +16,19 @@ transition: 1.9s, ease-in-out, left;
 }
 
 @media (min-width: 768px) {
-  .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
     left: 0;
     width: 100%;
   }
 }
-
+@media (max-width: 768px) {
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      left: -50%;
+      top: -20%;
+  }
+}
 /* .carousel-fade {
     .carousel-inner {
         .item {

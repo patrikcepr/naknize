@@ -11,7 +11,9 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="index.php">Na Knížecí</a>
+        <a class="navbar-brand" href="index.php">
+          <img src="assets/images/LOGO_naknizeci9w.png" alt="Na Knižecí">
+        </a>
       </div>
 
       <!-- Collect the nav links, forms, and other content for toggling -->
@@ -27,7 +29,7 @@
             </ul>
           </li>
           <!-- <li><a href="index.php#penzion">Penzion</a></li> -->
-          <li><a href="stay.php">Ubytování <span class="sr-only">(current)</span></a></li>
+          <li class="active"><a href="stay.php">Ubytování <span class="sr-only">(current)</span></a></li>
           <li><a href="index.php#historie">Historie</a></li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
@@ -36,15 +38,15 @@
       </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
   </nav>
-  <div class="container-fluid" id="pokoje">
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12 col-md-10 col-md-offset-1">
+  <div class="container-fluid leftright" id="pokoje">
+      <div class="row leftright">
+        <div class="col-xs-12 col-sm-10 col-sm-offset-1">
           <h1>Penzion</h1>
           <p>Penzion nabízí celkem 21 lůžek ve 2&nbsp;dvoulůžkových, 2&nbsp;třílůžkových, jednom pěti a jednom šestilůžkovém pokoji.
           Ceník ubytování: 350,-&nbsp;Kč/noc na osobu, při obsazení pokoje 1 osobou cena 500,-&nbsp;Kč/noc. V případě dlouhodobého pobytu možná sleva.</p>
         </div>
       </div>
+    <div class="container">
       <div class="row">
         <div class="col-xs-12">
           <h3>Prohlédněte si naše pokoje...</h3>
