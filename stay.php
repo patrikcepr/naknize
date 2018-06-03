@@ -21,7 +21,8 @@
         <ul class="nav navbar-nav">
           <li><a href="index.php#onas">O nás</a></li>
           <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Restaurace <span class="caret"></span></a>
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+            aria-haspopup="true" aria-expanded="false">Restaurace <span class="caret"></span></a>
             <ul class="dropdown-menu">
               <li><a href="restaurace.php#jidelni">Jídelní lístek</a></li>
               <li><a href="restaurace.php#galerierest">Galerie</a></li>

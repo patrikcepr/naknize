@@ -361,7 +361,13 @@ div.ekko-lightbox-nav-overlay a span {
     padding-right: 15px;
   }
 }
-
+.carousel-caption {
+  color: #ea9215;
+}
+.carousel-caption a {
+  text-decoration: underline;
+  color: #ea9215;
+}
 @media (min-width: 768px) {
   h1 {
     font-size: 2em;
@@ -382,6 +388,9 @@ div.ekko-lightbox-nav-overlay a span {
     background-color: inherit;
     color: white;
     border-bottom: 1px solid #e7e7e7;
+  }
+  .carousel-caption {
+    color: #ea9215;
   }
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {

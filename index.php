@@ -11,7 +11,7 @@ require_once "assets/includes/header.php";
 <!-- html part -->
 <body data-spy="scroll" data-target="#navbar-main">
   <!-- navbar z php -->
-  <?php require "assets/includes/navbar.php"; ?>
+  <?php include "assets/includes/navbar.php"; ?>
   <div class="container-fluid">
     <div class="row">
     <div id="carouselIndex" class="carousel slide" data-ride="carousel">
@@ -28,39 +28,39 @@ require_once "assets/includes/header.php";
       <!-- Wrapper for slides -->
       <div class="carousel-inner" role="listbox">
         <div class="item active">
-          <img src="assets/images/jidlo/IMG_7940-2.jpg" alt="...">
+          <img src="assets/images/jidlo/IMG_7940-2.jpg" alt="Na Knížecí">
           <div class="carousel-caption">
-            ...
+            Navštivte naší restauraci. Polední menu najdete <a href="https://www.facebook.com/cimelicenaknizeci/" target="_blank">zde.</a>
           </div>
         </div>
         <div class="item">
           <img src="assets/images/jidlo/IMG_7954.jpg" alt="...">
           <div class="carousel-caption">
-            ...
+            Navštivte naší restauraci. Polední menu najdete <a href="https://www.facebook.com/cimelicenaknizeci/" target="_blank">zde.</a>
           </div>
         </div>
         <div class="item">
           <img src="assets/images/jidlo/IMG_7980.jpg" alt="...">
           <div class="carousel-caption">
-            ...
+            Navštivte naší restauraci. Polední menu najdete <a href="https://www.facebook.com/cimelicenaknizeci/" target="_blank">zde.</a>
           </div>
         </div>
         <div class="item">
           <img src="assets/images/jidlo/IMG_7998.jpg" alt="...">
           <div class="carousel-caption">
-            ...
+            Navštivte naší restauraci. Polední menu najdete <a href="https://www.facebook.com/cimelicenaknizeci/" target="_blank">zde.</a>
           </div>
         </div>
         <div class="item">
           <img src="assets/images/jidlo/IMG_8018-2.jpg" alt="...">
           <div class="carousel-caption">
-            ...
+            Navštivte naší restauraci. Polední menu najdete <a href="https://www.facebook.com/cimelicenaknizeci/" target="_blank">zde.</a>
           </div>
         </div>
         <div class="item">
           <img src="assets/images/jidlo/IMG_8036.jpg" alt="...">
           <div class="carousel-caption">
-            ...
+            Navštivte naší restauraci. Polední menu najdete <a href="https://www.facebook.com/cimelicenaknizeci/" target="_blank">zde.</a>
           </div>
         </div>
       </div>
