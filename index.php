@@ -34,31 +34,31 @@ require_once "assets/includes/header.php";
           </div>
         </div>
         <div class="item">
-          <img src="assets/images/jidlo/IMG_7954.jpg" alt="...">
+          <img src="assets/images/jidlo/IMG_7954.jpg" alt="Na Knížecí">
           <div class="carousel-caption">
             Navštivte naší restauraci. Polední menu najdete <a href="https://www.facebook.com/cimelicenaknizeci/" target="_blank">zde.</a>
           </div>
         </div>
         <div class="item">
-          <img src="assets/images/jidlo/IMG_7980.jpg" alt="...">
+          <img src="assets/images/jidlo/IMG_7980.jpg" alt="Na Knížecí">
           <div class="carousel-caption">
             Navštivte naší restauraci. Polední menu najdete <a href="https://www.facebook.com/cimelicenaknizeci/" target="_blank">zde.</a>
           </div>
         </div>
         <div class="item">
-          <img src="assets/images/jidlo/IMG_7998.jpg" alt="...">
+          <img src="assets/images/jidlo/IMG_7998.jpg" alt="Na Knížecí">
           <div class="carousel-caption">
             Navštivte naší restauraci. Polední menu najdete <a href="https://www.facebook.com/cimelicenaknizeci/" target="_blank">zde.</a>
           </div>
         </div>
         <div class="item">
-          <img src="assets/images/jidlo/IMG_8018-2.jpg" alt="...">
+          <img src="assets/images/jidlo/IMG_8018-2.jpg" alt="Na Knížecí">
           <div class="carousel-caption">
             Navštivte naší restauraci. Polední menu najdete <a href="https://www.facebook.com/cimelicenaknizeci/" target="_blank">zde.</a>
           </div>
         </div>
         <div class="item">
-          <img src="assets/images/jidlo/IMG_8036.jpg" alt="...">
+          <img src="assets/images/jidlo/IMG_8036.jpg" alt="Na Knížecí">
           <div class="carousel-caption">
             Navštivte naší restauraci. Polední menu najdete <a href="https://www.facebook.com/cimelicenaknizeci/" target="_blank">zde.</a>
           </div>
@@ -78,38 +78,40 @@ require_once "assets/includes/header.php";
   </div>
   </div>
   <div class="container-fluid" id="onas">
-    <div class="row">
-      <div class="col-xs-10 col-xs-offset-1 col-md-offset-2 col-md-8">
-        <h1>Restaurace a penzion Na&nbsp;Knížecí - Čimelice</h1>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-10 col-xs-offset-1 col-md-offset-2 col-md-8">
+          <h1>Restaurace a penzion Na&nbsp;Knížecí - Čimelice</h1>
+        </div>
       </div>
-    </div>
-    <div class="row">
-      <div class="onas__blok col-xs-12 col-sm-3 col-sm-offset-1">
-        <span class="fas fa-home fa-10x"></span>
-        <p class="onas__blok-text">
-          Penzion s restaurací se nachází v centru malebné obce Čimelice na hlavním tahu Praha-Písek, Strakonice a to přímo na komunikaci R4,
-          80 km od Prahy.
-        <br>
-        Denní menu najdete na našich <a href="https://www.facebook.com/cimelicenaknizeci/" target="_blank">facebookových stránkách.</a></p>
-      </div>
-      <div class="onas__blok col-xs-12 col-sm-4">
-        <span class="fas fa-utensils fa-10x"></span>
-        <p class="onas__blok-text">
-          <a href="restaurace.php#galerierest">Restaurace</a> má celkovou kapacitu 130 míst, z čehož je 60 míst uvnitř a zbylých 70 míst nabízí stylová venkovní terasa ve vnitrobloku.
-          Denně nabízíme výběr z poledního menu s hotovými jídly a saláty. Po obědech pak speciality z našeho stálého jídelního lístku.
-        </p>
-      </div>
-      <div class="onas__blok col-xs-12 col-sm-3">
-        <span class="fas fa-bed fa-10x"></span>
-        <p class="onas__blok-text">
-          Celková kapacita penzionu je 21 lůžek rozdělených do 6 pokojů s vlastním sociálním zařízením, samozřejmostí je wifi připojení.<br>
-        <a href="stay.php">Chcete se u nás ubytovat?</a></p>
+      <div class="row">
+        <div class="onas__blok col-xs-12 col-sm-4">
+          <span class="fas fa-home fa-10x"></span>
+          <p class="onas__blok-text">
+            Penzion s restaurací se nachází v centru malebné obce Čimelice na hlavním tahu Praha-Písek, Strakonice a to přímo na komunikaci R4,
+            80 km od Prahy.
+          <br>
+          Denní menu najdete na našich <a href="https://www.facebook.com/cimelicenaknizeci/" target="_blank">facebookových stránkách.</a></p>
+        </div>
+        <div class="onas__blok col-xs-12 col-sm-4">
+          <span class="fas fa-utensils fa-10x"></span>
+          <p class="onas__blok-text">
+            <a href="restaurace.php#galerierest">Restaurace</a> má celkovou kapacitu 130 míst, z čehož je 60 míst uvnitř a zbylých 70 míst nabízí stylová venkovní terasa ve vnitrobloku.
+            Denně nabízíme výběr z poledního menu s hotovými jídly a saláty. Po obědech pak speciality z našeho stálého jídelního lístku.
+          </p>
+        </div>
+        <div class="onas__blok col-xs-12 col-sm-4">
+          <span class="fas fa-bed fa-10x"></span>
+          <p class="onas__blok-text">
+            Celková kapacita penzionu je 21 lůžek rozdělených do 6 pokojů s vlastním sociálním zařízením, samozřejmostí je wifi připojení.<br>
+          <a href="stay.php">Chcete se u nás ubytovat?</a></p>
+        </div>
       </div>
     </div>
   </div>
   <div class="container-fluid" id="historie">
     <div class="row">
-      <div class="col-xs-12 col-sm-offset-1 col-sm-10">
+      <div class="col-xs-12 col-sm-offset-1 col-sm-10 col-lg-6 col-lg-offset-3">
         <h1>Historie</h1>
         <p>
           Již v roce 1775 na tomto místě stálo pohostinství, ovšem z této doby se nedochoval žádný doklad o tom, jak bylo velké a jak vypadalo.

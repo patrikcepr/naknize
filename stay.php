@@ -40,13 +40,15 @@
     </div><!-- /.container-fluid -->
   </nav>
   <div class="container-fluid leftright" id="pokoje">
-      <div class="row leftright">
-        <div class="col-xs-12 col-sm-10 col-sm-offset-1">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
           <h1>Penzion</h1>
           <p>Penzion nabízí celkem 21 lůžek ve 2&nbsp;dvoulůžkových, 2&nbsp;třílůžkových, jednom pěti a jednom šestilůžkovém pokoji.
           Ceník ubytování: 350,-&nbsp;Kč/noc na osobu, při obsazení pokoje 1 osobou cena 500,-&nbsp;Kč/noc. V případě dlouhodobého pobytu možná sleva.</p>
         </div>
       </div>
+    </div>
     <div class="container">
       <div class="row">
         <div class="col-xs-12">

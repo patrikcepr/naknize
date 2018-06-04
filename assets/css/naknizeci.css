@@ -26,7 +26,6 @@ a:hover {
 h1 {
   color: #eee;
   font-weight: 900;
-  /* font-size: 1.5em; */
   line-height: 1.5em;
 }
 p {
@@ -256,9 +255,9 @@ div.ekko-lightbox-nav-overlay a span {
   width: 100%;
   box-shadow: 2px 2px 2px 3px rgba(0, 0, 0, 0.5);
 }
-#galerierest h2 {
-  padding-left: 15px;
-  /* padding-top: 2em; */
+#galerierest h1, #jidlo h1, #jidelni h1, #napojovy h1 {
+  margin-top: 1em;
+  margin-bottom: 2em;
   padding-bottom: 15px;
 }
 #form-container {
@@ -283,9 +282,7 @@ div.ekko-lightbox-nav-overlay a span {
   padding: 15px;
   padding-top: 150px;
 }
-#napojovy h2 {
-  /* padding-top: 2em; */
-}
+
 /*galerie pokoje*/
 #pokoje {
   background-color: #FFA000;
@@ -353,21 +350,12 @@ div.ekko-lightbox-nav-overlay a span {
     padding-left: 0;
     padding-right: 0;
   }
-  #jidelni h2, #napojovy h2, #jidlo h2 {
-    padding-left: 15px;
-  }
   #jidelni p {
     padding-left: 15px;
     padding-right: 15px;
   }
 }
-.carousel-caption {
-  color: #ea9215;
-}
-.carousel-caption a {
-  text-decoration: underline;
-  color: #ea9215;
-}
+
 @media (min-width: 768px) {
   h1 {
     font-size: 2em;
@@ -389,9 +377,7 @@ div.ekko-lightbox-nav-overlay a span {
     color: white;
     border-bottom: 1px solid #e7e7e7;
   }
-  .carousel-caption {
-    color: #ea9215;
-  }
+
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   /* #historie{

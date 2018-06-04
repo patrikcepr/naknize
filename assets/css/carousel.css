@@ -1,4 +1,5 @@
-.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
     display: block;
     position: relative;
     left: -25%;
@@ -14,21 +15,44 @@ transition: 1.9s, ease-in-out, left;
 -moz-transition: 1.9s, ease-in-out, left;
 -o-transition: 1.9s, ease-in-out, left;
 }
-
+.carousel-caption {
+  color: #ea9215;
+  font-size: 1.3em;
+  top: 2%;
+}
+.carousel-caption a {
+  text-decoration: underline;
+  color: #4CAF50;
+  font-size: 1.3em;
+}
 @media (min-width: 768px) {
   .carousel-inner > .item > img,
   .carousel-inner > .item > a > img {
     left: 0;
+    /* top: -45%; */
     width: 100%;
   }
+/*
+  .carousel-caption {
+    color: #ea9215;
+  } */
 }
 @media (max-width: 768px) {
   .carousel-inner > .item > img,
   .carousel-inner > .item > a > img {
       left: -50%;
-      top: -20%;
+      top: -25%;
+  }
+
+  .carousel-caption {
+    top: 73%;
+    font-size: 1.4em;
+  }
+  .carousel-caption a {
+    font-size: 1.1em;
   }
 }
+
 /* .carousel-fade {
     .carousel-inner {
         .item {
