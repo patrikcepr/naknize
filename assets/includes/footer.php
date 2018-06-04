@@ -1,3 +1,8 @@
+<!-- Back to top -->
+<a href="#0" class="cd-top">Top</a>
+<!-- Back to top -->
+<script src="assets/js/backroll.js"></script> <!-- Resource JavaScript -->
+
 <!-- lightbox script -->
 <script type="text/javascript">
     $(document).on('click', '[data-toggle="lightbox"]', function(event) {
@@ -6,52 +11,13 @@
           alwaysShowClose: true,
         });
     });
-    // uklizeni menu
+    //Menu Rollback
     $(document).on('click','.navbar-collapse.in',function(e) {
             if( $(e.target).is('a') ) {
                 $(this).collapse('hide');
               }
         });
-    // $(document).ready(function () {
-    //     $(".navbar-nav li a").click(function(event) {
-    //           $(".navbar-collapse").collapse('hide');
-    //           });
-    //     });
 
-    // dotdotdot
-    $(document).ready(function( $ ) {
-
-      var $ttl = $('#historie');
-       $ttl.dotdotdot({
-            // Options go here
-            // Prevents the <a class="toggle" /> from being removed
-            keep: '.toggle'
-         });
-         // Get the dotdotdot API
-      var api = $ttl.data( 'dotdotdot' );
-        $ttl.on(
-          'click',
-          '.toggle',
-          function( e )
-          {
-            e.preventDefault();
-            //	When truncated, restore
-            if ( $ttl.hasClass( 'ddd-truncated' ) )
-            {
-              api.restore();
-              $ttl.addClass( 'full-story' );
-            }
-            //	Not truncated, truncate
-            else
-            {
-              $ttl.removeClass( 'full-story' );
-              api.truncate();
-              api.watch();
-            }
-          }
-        );
-
-    });
     $('#carouselIndex').carousel({
       interval: 6000
     });
@@ -71,7 +37,6 @@
         }
     });
 </script>
-
 
 <!-- modifikovane javascripty -->
 <script src="assets/js/naknizeci.js"></script>

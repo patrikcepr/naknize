@@ -16,10 +16,11 @@
     <!-- <script src="http://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script> -->
     <script src="assets/lib/jquery-ui.js"></script>
     <script src="assets/lib/bootstrap.js" charset="utf-8"></script>
+    <script src="assets/js/backroll.js"></script> <!-- Resource JavaScript -->
     <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" charset="utf-8"></script> -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jQuery.dotdotdot/3.2.2/jquery.dotdotdot.js" charset="utf-8"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.2.0/ekko-lightbox.min.js" charset="utf-8"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <!-- <link rel="stylesheet" href="assets/css/back.css"> -->
     <link rel="stylesheet" href="assets/css/naknizeci.css">
     <link rel="stylesheet" href="assets/css/carousel.css">
     <script>
