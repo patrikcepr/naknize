@@ -20,7 +20,7 @@ jQuery(document).ready(function($){
 	$back_to_top.on('click', function(event){
 		event.preventDefault();
 		$('body,html').animate({
-			scrollTop: 0 ,
+			scrollTop: 10 ,
 		 	}, scroll_top_duration
 		);
 	});
