@@ -1,3 +1,8 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css?family=Lato:400,900');
+@import url('https://fonts.googleapis.com/css?family=Bitter:400,700');
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
 *, *::after, *::before {
@@ -13,7 +18,7 @@ html {
 
 body {
   position: relative;
-  padding-top: 140px;
+  padding-top: 12rem;
   height: 100%;
   background-color: #ea9215;
   font-family: 'Lato', sans-serif;
@@ -89,7 +94,7 @@ tbody tr td:nth-of-type(2n) {
 }
 /* navbar */
 .navbar {
-  min-height: 140px;
+  min-height: 12rem;
 }
 .navbar-default .navbar-nav > li > a:hover {
   /*color: rgb(35, 82, 124);*/
@@ -113,7 +118,7 @@ tbody tr td:nth-of-type(2n) {
   background: #ddd;
 }
 .navbar-brand img {
-  height: 100px;
+  height: 8rem;
   /* padding-left: 15px; */
 }
 #navbar-collapse-1 {
